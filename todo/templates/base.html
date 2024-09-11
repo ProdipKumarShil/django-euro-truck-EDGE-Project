@@ -1,0 +1,90 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website | {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'bootstrap.css' %}" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="{% static 'images/logo.png' %} " />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse center navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-us">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/todo">Todo</a>
+            </li>
+          </ul>
+          <button class="btn btn-primary">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="">{% block content %} {% endblock %}</div>
+
+    <div class="bg-dark text-white">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 mb-3">
+            <img src="{% static 'images/logoFooter.png' %} " />
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p class="text-white fs-5 ">Services</p>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Refrigerated box bodies</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Beverage bodies</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Dump trucks</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Freezer box-bodies</a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p class="text-white fs-5 ">Services</p>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Refrigerated box bodies</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Beverage bodies</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Dump trucks</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Freezer box-bodies</a>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <p class="text-white fs-5 ">Services</p>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Refrigerated box bodies</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Beverage bodies</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Dump trucks</a>
+            <a class="nav mb-1 text-white text-decoration-none" href="#">Freezer box-bodies</a>
+          </div>
+        </div>
+        <div class="">
+          <div class="text-white pb-2">
+            <hr />
+          </div>
+          <p class="pb-4">
+            Copyright © Truck Services 2022. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="{% static 'bootstrap.min.js' %}"></script>
+  </body>
+</html>
