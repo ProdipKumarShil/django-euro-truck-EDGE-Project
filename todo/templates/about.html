@@ -1,4 +1,46 @@
-{% extends 'base.html' %}{% block title %} About Us {% endblock %}
+{% extends 'base.html' %}
+{% load static %} 
+{% block title %} About Us {% endblock %} 
 {% block content %}
-<h1>About us</h1>
+
+<div class="">
+  <div
+    class="d-flex align-items-center justify-content-center text-white wave"
+    style="
+      height: 50vh;
+      background-color: #4762ff;
+      font-size: 60px;
+      font-weight: 800;
+    ">
+    <p>About Us</p>
+  </div>
+
+  <div class="">
+    <div class="container" style="margin-bottom: 100px">
+      <div
+        class="row align-items-center justify-content-evenly"
+        style="margin-top: 30px">
+        <div class="col-sm-12 col-md-6 mb-4 mb-md-0">
+          <img style="height: 350px; width: 100%; object-fit: cover;" class="img-fluid" src="{% static 'images/about.jpg' %}" />
+        </div>
+        <div class="col-sm-12 col-md-6" style="color: #333">
+          <p style="color: #333; font-weight: 700; font-size: 30px">
+            Trusted by Truck Owners Nationwide
+          </p>
+          <p>
+            With over 8 years of experience, Euro Truck Service is a leader in truck servicing and maintenance. Our team of certified technicians is dedicated to providing exceptional service, ensuring that your vehicles stay on the road and your business keeps running smoothly.
+          </p>
+          <p>
+            Our mission is to provide reliable, efficient, and affordable truck maintenance services, making sure that every truck we work on is safe, reliable, and road-ready
+          </p>
+          <p>
+            We believe that our success is measured by the satisfaction of our
+            clients. From routine maintenance to emergency repairs, we strive to
+            exceed expectations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
