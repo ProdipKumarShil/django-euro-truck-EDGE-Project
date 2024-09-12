@@ -1,5 +1,6 @@
-{% extends 'base.html' %}{% block title %} Home Page {% endblock %} 
-{% load static %}
+{% extends 'base.html' %}
+{% block title %} Home Page {% endblock %} 
+{% load static %} 
 {% block content %}
 
 <!-- banner -->
@@ -11,49 +12,109 @@
       <button class="btn btn-primary px-5">Buy Now</button>
     </div>
     <div class="col-sm-12 col-md-6">
-      <img class="" src="{% static 'images/bannerImg.png' %}">
-    </div> 
+      <img class="" src="{% static 'images/bannerImg.png' %}" />
+    </div>
   </div>
 </div>
 <!-- banner -->
 
 <!-- services -->
-<div class="container " style="margin-bottom: 60px;">
-  <p class="text-center " style="color: #333; font-weight: 700; font-size: 30px;">Expert Truck Servicing Solutions</p>
-  <p class="text-center description"> Our expert team handles everything  from routine<br> maintenance to complex repairs</p>
+<div class="container" style="margin-bottom: 100px">
+  <p class="text-center" style="color: #333; font-weight: 700; font-size: 30px">
+    Expert Truck Servicing Solutions
+  </p>
+  <p class="text-center description">
+    Our expert team handles everything from routine<br />
+    maintenance to complex repairs
+  </p>
   <div class="row justify-content-center gap mb-4 px-2">
     <div class="col-md-5 col-sm-12 pe-0 pt-3 border rounded shadow-sm">
-      <p class="" style="color: #333; font-size: 20px; font-weight: 700;">Engine Diagnostics & Repair</p>
-      <div class="d-flex" >
-        <p>Expert analysis and repair to keep your engine running smoothly and efficiently.</p>
-        <img style="height: 100px;" class="" src="{% static 'images/service.png' %}">
+      <p class="" style="color: #333; font-size: 20px; font-weight: 700">
+        Engine Diagnostics & Repair
+      </p>
+      <div class="d-flex">
+        <p>
+          Expert analysis and repair to keep your engine running smoothly and
+          efficiently.
+        </p>
+        <img
+          style="height: 100px"
+          class=""
+          src="{% static 'images/service.png' %}" />
       </div>
     </div>
     <div class="col-md-5 col-sm-12 pe-0 pt-3 border rounded shadow-sm">
-      <p class="" style="color: #333; font-size: 20px; font-weight: 700;">Engine Diagnostics & Repair</p>
-      <div class="d-flex" >
-        <p>Expert analysis and repair to keep your engine running smoothly and efficiently.</p>
-        <img style="height: 100px;" class="" src="{% static 'images/service.png' %}">
+      <p class="" style="color: #333; font-size: 20px; font-weight: 700">
+        Engine Diagnostics & Repair
+      </p>
+      <div class="d-flex">
+        <p>
+          Expert analysis and repair to keep your engine running smoothly and
+          efficiently.
+        </p>
+        <img
+          style="height: 100px"
+          class=""
+          src="{% static 'images/service.png' %}" />
       </div>
     </div>
   </div>
   <div class="row justify-content-center gap px-2">
     <div class="col-md-5 col-sm-12 pe-0 pt-3 border rounded shadow-sm">
-      <p class="" style="color: #333; font-size: 20px; font-weight: 700;">Engine Diagnostics & Repair</p>
-      <div class="d-flex" >
-        <p>Expert analysis and repair to keep your engine running smoothly and efficiently.</p>
-        <img style="height: 100px;" class="" src="{% static 'images/service.png' %}">
+      <p class="" style="color: #333; font-size: 20px; font-weight: 700">
+        Engine Diagnostics & Repair
+      </p>
+      <div class="d-flex">
+        <p>
+          Expert analysis and repair to keep your engine running smoothly and
+          efficiently.
+        </p>
+        <img
+          style="height: 100px"
+          class=""
+          src="{% static 'images/service.png' %}" />
       </div>
     </div>
     <div class="col-md-5 col-sm-12 pe-0 pt-3 border rounded shadow-sm">
-      <p class="" style="color: #333; font-size: 20px; font-weight: 700;">Engine Diagnostics & Repair</p>
-      <div class="d-flex" >
-        <p>Expert analysis and repair to keep your engine running smoothly and efficiently.</p>
-        <img style="height: 100px;" class="" src="{% static 'images/service.png' %}">
+      <p class="" style="color: #333; font-size: 20px; font-weight: 700">
+        Engine Diagnostics & Repair
+      </p>
+      <div class="d-flex">
+        <p>
+          Expert analysis and repair to keep your engine running smoothly and
+          efficiently.
+        </p>
+        <img
+          style="height: 100px"
+          class=""
+          src="{% static 'images/service.png' %}" />
       </div>
     </div>
   </div>
 </div>
 <!-- services -->
+
+<!-- Happy Client -->
+<div class="container" style="margin-bottom: 100px;">
+  <p class="text-center" style="color: #333; font-weight: 700; font-size: 30px">
+    Our Happy Clients
+  </p>
+  <p class="text-center description">
+    Hear what our satisfied clients have to say about our services
+  </p>
+  <div class="row align-items-center justify-content-evenly" style="margin-top: 30px;">
+    <div class="col-sm-12 col-md-6 mb-4 mb-md-0">
+      <img class="img-fluid" src="{% static 'images/truck-min.jpg' %}" />
+    </div>
+    <div class="col-sm-12 col-md-6 " style="color: #333;">
+      <p style="color: #333; font-weight: 700; font-size: 30px">What Our Happy Clients Say</p>
+      <p>We pride ourselves on providing top-notch service to every client. Here’s what some of our satisfied customers have to say about their experience with us</p>
+      <p>You can showcase testimonials from different clients, focusing on what they liked about your service.</p>
+      <p>We believe that our success is measured by the satisfaction of our clients.
+        From routine maintenance to emergency repairs, we strive to exceed expectations.</p>
+    </div>
+  </div>
+</div>
+<!-- Happy Client -->
 
 {% endblock %}
