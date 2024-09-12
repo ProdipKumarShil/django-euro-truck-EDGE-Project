@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Website | {% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'bootstrap.css' %}" />
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -44,7 +48,9 @@
       </div>
     </nav>
 
-    <div class="">{% block content %} {% endblock %}</div>
+    <div style="overflow: hidden" class="">
+      {% block content %} {% endblock %}
+    </div>
 
     <div class="bg-dark text-white">
       <div class="container pt-5">
@@ -53,25 +59,49 @@
             <img src="{% static 'images/logoFooter.png' %} " />
           </div>
           <div class="col-md-3 col-sm-6">
-            <p class="text-white fs-5 ">Services</p>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Refrigerated box bodies</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Beverage bodies</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Dump trucks</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Freezer box-bodies</a>
+            <p class="text-white fs-5">Services</p>
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Refrigerated box bodies</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Beverage bodies</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Dump trucks</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Freezer box-bodies</a
+            >
           </div>
           <div class="col-md-3 col-sm-6">
-            <p class="text-white fs-5 ">Services</p>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Refrigerated box bodies</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Beverage bodies</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Dump trucks</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Freezer box-bodies</a>
+            <p class="text-white fs-5">Services</p>
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Refrigerated box bodies</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Beverage bodies</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Dump trucks</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Freezer box-bodies</a
+            >
           </div>
           <div class="col-md-3 col-sm-6">
-            <p class="text-white fs-5 ">Services</p>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Refrigerated box bodies</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Beverage bodies</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Dump trucks</a>
-            <a class="nav mb-1 text-white text-decoration-none" href="#">Freezer box-bodies</a>
+            <p class="text-white fs-5">Services</p>
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Refrigerated box bodies</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Beverage bodies</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Dump trucks</a
+            >
+            <a class="nav mb-1 text-white text-decoration-none" href="#"
+              >Freezer box-bodies</a
+            >
           </div>
         </div>
         <div class="">

@@ -1,0 +1,26 @@
+*{
+  font-family: "Inter", sans-serif; 
+}
+
+.description{
+  color: rgba(51, 51, 51, 0.80);
+  font-size: 16px;
+}
+
+.gap{
+  gap: 24px;
+}
+
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+.margin-bottom-60{
+  margin-bottom: 60px;
+}
+.padding-bottom-20{
+  padding-bottom: 20px;
+}
+
+.w-9{
+  width: 90%;
+}
